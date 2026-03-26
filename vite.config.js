@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/brook-control-room/',
   server: { allowedHosts: ['host.docker.internal'] },
 })
