@@ -1129,7 +1129,7 @@ export default function BrookControlRoom() {
             <Activity size={14} color="#fff" />
           </div>
           <span style={{ fontSize: 16, fontWeight: 800, letterSpacing: '-0.5px', color: COLORS.text }}>BROOK</span>
-          <span style={{ fontSize: 12, color: COLORS.textMuted, fontWeight: 500 }}>Unified Control Room</span>
+          <span style={{ fontSize: 12, color: COLORS.textMuted, fontWeight: 500 }}>Control Room</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
           <button onClick={() => setDark(!dark)} style={{ background: 'none', border: `1px solid ${COLORS.border}`, borderRadius: 6, cursor: 'pointer', padding: '4px 8px', display: 'flex', alignItems: 'center', gap: 4 }} aria-label="Toggle theme">
